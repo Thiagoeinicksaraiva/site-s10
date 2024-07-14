@@ -1,0 +1,374 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    background-color: hsl(216, 100%, 58%);
+
+}
+
+
+
+#Imagem_fundo {
+    background: url(img/fundocerto.jpg);
+    height: 130%;
+    text-align: center;
+    background-size: cover;
+}
+
+
+
+#titulo {
+    color: rgb(145, 37, 18);
+    font-size: 100px;
+    padding-top: 7%;
+    line-height: 1;
+}
+
+
+
+#site {
+color: #17238f;
+border: 10px rgb(0, 2, 146) solid;
+padding: 9px 1px 9px 1px ;
+border-radius: 23px;
+font-size: 21px;
+text-decoration: initial;
+margin-left: 700px;
+top: 80%;
+position: absolute;
+}
+
+
+
+#Avaliação {
+    color: #f8f8f8;
+border: 3px rgb(38, 7, 179) solid;
+padding: 5px 5px 5px 5px ;
+border-radius: 10px;
+font-size: 20px;
+text-decoration: initial;
+margin-left: 18%;
+position: absolute;
+}
+
+
+
+
+#opinião {
+    color: #f8f8f8;
+border: 3px rgb(38, 7, 179) solid;
+padding: 5px 5px 5px 5px ;
+border-radius: 10px;
+font-size: 20px;
+text-decoration: initial;
+margin-left: 10%;
+position: absolute;
+}
+
+
+
+
+#logodiv {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+
+#logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    margin-left: 0%;
+}
+
+
+
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    padding-right: 5%;
+}
+
+
+
+.li {
+    float: right;
+    padding: 10px 10px 20px 10px;
+}
+
+
+
+.Li:hover {
+    background-color: rgb(32, 108, 179);
+    color: rgb(43, 255, 0);
+}
+
+
+
+header {
+    background-color:hsl(216, 100%, 58%);
+    color: rgb(5, 5, 5);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+
+
+
+
+.coluna {
+    float: left;
+    padding: 1% 5%;
+    position: relative;
+}
+
+
+
+.centralizado{
+    text-align: center;
+    }
+    
+    
+    
+    
+.justificado {
+    text-align: justify;
+    }
+    
+
+
+section {
+    padding: 20px;
+    float: left;
+ }
+    
+
+
+.tres {
+     width: 30%;
+     padding:4% 1%;
+     height: 60%;
+}
+
+
+    
+.dois {
+    width: 40%;
+}
+
+
+
+.quatro {
+    width: 15%;
+}
+
+
+
+.destaque1{
+    background-color: #676c9b;
+    height: 78%;
+}
+
+
+
+
+.Imagens {
+background-color: rgb(47, 78, 124);
+width: 97%;
+height: 76%;
+color: rgb(255, 255, 255);
+font-size: 35px;
+}
+
+
+
+.img1{
+    width: 400px;
+    height: 250px;
+    padding-left: 2%;
+}
+
+
+
+.img2{
+    width: 400px;
+    height: 250px;
+    padding-left: 6%;
+}
+
+
+
+.img3{
+    width: 400px;
+    height: 250px;
+    padding-left: 10%;
+}
+
+
+
+    .destaque4{
+        background-color: rgb(61, 86, 139);
+        width: 97%;
+        margin-left: 0%;
+        height: 52%;
+    }
+
+
+    .centralizado1 {
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+
+    }
+
+a {
+    color: rgb(38, 8, 202);
+    text-decoration: none;
+}
+
+#p{
+    color: rgb(0, 0, 0);
+}
+
+#nova_coluna{
+    width: 33.33%;
+    padding: 0%;
+    box-sizing: border-box;
+    float: left;
+}    
+
+
+
+@media all and (max-width: 768px) {
+ 
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        background-color: hsl(216, 100%, 58%);
+    }
+
+
+ 
+    #Avaliação {
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 12%;
+    }
+
+    #opinião, .site {
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 34%;
+    
+    }
+
+
+    #site{
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 4%;
+        float: left;
+       
+    }
+
+    
+
+
+    .coluna {
+        width: 100%;
+        padding: 1%;
+        margin-bottom: 20px;
+    }
+
+
+
+    #titulo {
+        font-size: 2.5em;
+        padding-top: 20%;
+    }
+
+
+
+    #logo {
+        width: 80px;
+        text-align: center;
+        padding-top: 10px;
+        padding: 5px, 5px, 5px, 5px;
+        
+
+    }
+
+
+
+.Img1, .Img2,.Img3{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.Imagens{
+    max-width: 100%;
+    height: auto;
+    
+   
+}
+
+
+
+#nova_coluna{
+    width: 33.33%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+
+
+    #logodiv {
+        text-align: left;
+        padding: 0;
+        padding-top: 0px;
+
+    }
+
+
+
+    #menu {
+        padding-right: 0;
+        float: none;
+        margin: 0;
+        float: right;
+        padding-right: 2%;
+        
+    }
+
+    .li {
+        display: inline-block;
+        padding: 10px;
+
+        
+    }
+
+
+
+#Imagem_fundo{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+}
