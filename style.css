@@ -8,7 +8,7 @@ html, body {
 
 
 #Imagem_fundo {
-    background: url(img/fundocerto.jpg);
+    background: url(fundocerto.jpg);
     height: 130%;
     text-align: center;
     background-size: cover;
